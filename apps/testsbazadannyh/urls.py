@@ -1,6 +1,6 @@
 from django.urls import path
-from apps.testsbazadannyh.views import general_page
+from apps.testsbazadannyh.views import students_page
 
 urlpatterns = [
-    path('', general_page, name='home'),
+    path('', students_page, name='students'),
 ]
